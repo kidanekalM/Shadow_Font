@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a{
+    height: 50vh;
+    width: 5vh;
+    box-shadow: 7px 7px 3px lightgrey;
+    transform: rotate(25deg);
+}
+.a.right{
+    transform: rotate(-25deg);
+    position: relative;
+    /* left: 15vh; */
+}
+.mid{
+    transform: rotate(0deg);
+    width: 17vh;
+    height: 5vh;
+}
