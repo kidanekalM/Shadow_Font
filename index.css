@@ -5,17 +5,19 @@ body{
 }
 .a{
     height: 50vh;
-    width: 5vh;
-    box-shadow: 7px 7px 3px lightgrey;
-    transform: rotate(25deg);
+    width: 10vh;
+    box-shadow: 7px -7px 3px #c4c4c4;
+    /*! transform: rotate(25deg); */
 }
 .a.right{
-    transform: rotate(-25deg);
+    /*! transform: rotate(-25deg); */
     position: relative;
     /* left: 15vh; */
+    background-color: white;
 }
 .mid{
     transform: rotate(0deg);
-    width: 17vh;
-    height: 5vh;
+    width: 20vh;
+    height: 10vh;
+    background-color: white;
 }
